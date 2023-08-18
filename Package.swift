@@ -17,6 +17,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "FluentAdsKit", url: "https://fluent-ads-kit-sdks.s3.us-east-2.amazonaws.com/ios/FluentAdsKit.xcframework.zip", checksum: "ea7798f50862e7b523dd4421221be77af682c9414a226e26a274da3b6ab316d8")
+        .binaryTarget(name: "FluentAdsKit", url: "https://fluent-ads-kit-sdks.s3.us-east-2.amazonaws.com/ios/FluentAdsKit.xcframework.v1.0.0.zip", checksum: "d8ddcb80b4f3052224cf58a41b1e04309364f3f53272c2fae99685137a8340b7")
     ]
 )
