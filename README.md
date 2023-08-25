@@ -1,12 +1,12 @@
-# FluentAdsKit iOS SDK
+# FluentAdFlowAdsKitIosSdk iOS SDK
 
-The FluentAdFlowAdsKit iOS SDK enables you to integrate Fluent into your native iOS mobile apps.
+The FluentAdFlowAdsKitIosSdk iOS SDK enables you to integrate Fluent into your native iOS mobile apps.
 
 ## License
 
 Copyright 2023 Fluent
 
-Licensed under the FluentAdFlowAdsKit Software Development Kit (SDK) Terms of Use
+Licensed under the FluentAdFlowAdsKitIosSdk Software Development Kit (SDK) Terms of Use
 Version 1.0 (the "License")
 
 ## Requirements
@@ -39,12 +39,12 @@ dependencies: [
 
 ```swift
 import SwiftUI
-import FluentAdFlowAdsKit
+import FluentAdFlowAdsKitIosSdk
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            FluentAdFlowAdsKit().load(email: "jsmith@gmail.com",firstName: "John",lastName: "Smith",orderId: "482348", transactionValue: 87.55, zip: "10018")
+            FluentAdFlowAdsKit().load(email: "jsmith@gmail.com",firstName: "John",lastName: "Smith",orderId: "482348", transactionValue: "87.55", zip: "10018")
         }
         .padding()
     }
