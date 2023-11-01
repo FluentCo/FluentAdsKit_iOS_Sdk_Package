@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "FluentAdFlowAdsKitIosSdk",
+    name: "FluentAdFlowAdsWidget",
     platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "FluentAdFlowAdsKitIosSdk",
-            targets: ["FluentAdFlowAdsKit"]),
+            name: "FluentAdFlowAdsWidget",
+            targets: ["fluentAdFlowAdsWidget"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "FluentAdFlowAdsKit", url: "https://fluent-ads-kit-sdks.s3.us-east-2.amazonaws.com/ios/FluentAdFlowAdsKitIosSdk.xcframework.v0.0.1.zip", checksum: "cf929bbb4d705480afa9e605a5fe3cc77a2d665802e5696afe1ad7530c1389c6")
+        .binaryTarget(name: "fluentAdFlowAdsWidget", url: "https://mobile-sdk.adflow-dev.minionplatform.com/ios/dev/FluentAdFlowAdsWidget.xcframework.dev.zip", checksum: "7e7f76c6476d832fb5467963e4b350fb7e3b40f4978c3a232768e6faf4268627")
     ]
 )
