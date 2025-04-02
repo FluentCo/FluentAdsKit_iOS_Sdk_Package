@@ -2,6 +2,8 @@
 
 The FluentAdFlowAdsKitIosSdk iOS SDK enables you to integrate Fluent into your native iOS mobile apps.
 
+This repository is obsolete, see [Fluent-AdFlow-Widget](https://github.com/FluentCo/Fluent-AdFlow-Widget) instead.
+
 ## License
 
 Copyright 2023 Fluent
